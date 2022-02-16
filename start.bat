@@ -1,0 +1,1 @@
+C:/Users/shurk/AppData/Local/Programs/Python/Python38/python.exe "c:/Users/shurk/OneDrive - Pegasystems Inc/Documents/Python Projects/TradingBot/main.py"
