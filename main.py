@@ -37,10 +37,10 @@ logger.addHandler(file_handler)
 
 if __name__ == "__main__":
     
-    binance = BinanceClient("6a540b7c910944177eecba8929030cc88832e6f5d73e3498d3e52698c75f37ce", 
-    "da74c5fbf289fbb7d3d5edb18990e702b221d49428b4983d46f124d278edd796", testnet=True, futures=True) #insert keys
+    binance = BinanceClient("", 
+    "", testnet=True, futures=True) #insert keys
     
-    bitmex = BitmexClient("BTHPdV-6MgutUR7g4uyB4FeP", "uUZBqvHkEmfW104WSwD5VvUgnFkWIexuT2a8s-0lJwcbp6Jq", testnet=True) #insert keys
+    bitmex = BitmexClient("", "", testnet=True) #insert keys
 
 
     root = Root(binance, bitmex)
